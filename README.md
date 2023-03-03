@@ -1,4 +1,4 @@
-Example project to show trace IDs are not working in reactive, native application.
+Example project to show trace IDs are not working in reactive, native application. See https://github.com/spring-projects/spring-framework/issues/30058
 Steps to reproduce:
 1. Run Zipkin locally `docker run -d -p 9411:9411 openzipkin/zipkin`
 2. Run in JVM `./gradlew bootRun` 
